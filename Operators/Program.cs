@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Operators
 {
@@ -45,7 +49,7 @@ namespace Operators
             {
 
             }
-            if ((x > y)&&(a > b))
+            if ((x > y) && (a > b))
             {
 
             }
@@ -54,11 +58,11 @@ namespace Operators
 
             }
 
-            string message = (x=1) ? "Car" : "Boat"
+            string message = (x == 1) ? "Car" : "Boat";
 
             Console.WriteLine("Hi!");
 
-            x + y;
+            //x + y;
         }
     }
 }
